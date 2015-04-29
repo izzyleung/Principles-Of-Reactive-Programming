@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0m+ Heap.min1: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.gen1: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.min2: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.deleteMin1: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.sorted: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.minimum of two: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.min3: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.meld sorted: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.deleteMin2: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.deleteMin3: OK, passed 100 tests.[0m
+[0m[[0minfo[0m] [0m+ Heap.deleteMin4: OK, passed 100 tests.[0m

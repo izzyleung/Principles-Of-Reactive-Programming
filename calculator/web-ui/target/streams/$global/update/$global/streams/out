@@ -1,0 +1,825 @@
+[info] Updating {file:/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/}webUI...
+[debug] :: resolving dependencies :: webui#webui_sjs0.6_2.11;0.1-SNAPSHOT
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27fe7daa
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
+[debug] 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
+[debug] 	[2.11.6] org.scala-lang#scala-library;2.11.6
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->default(compile)]
+[info] Resolving org.scala-js#scalajs-library_2.11;0.6.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-library_2.11;0.6.2 {compile=[default(compile)]}
+[info] Resolving org.scala-js#scalajs-library_2.11;0.6.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#scalajs-library_2.11;0.6.2 {compile=[default(compile)]}
+[debug] 		tried /Users/izzy/.ivy2/local/org.scala-js/scalajs-library_2.11/0.6.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-js#scalajs-library_2.11;0.6.2
+[debug] 		tried /doesnotexist/repository/org.scala-js/scalajs-library_2.11/0.6.2/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.scala-js#scalajs-library_2.11;0.6.2
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.scala-js/scalajs-library_2.11/0.6.2/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.scala-js#scalajs-library_2.11;0.6.2
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.2/scalajs-library_2.11-0.6.2.pom
+[debug] 	public: found md file for org.scala-js#scalajs-library_2.11;0.6.2
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.2/scalajs-library_2.11-0.6.2.pom (0.6.2)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.2/scalajs-library_2.11-0.6.2.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.2/scalajs-library_2.11-0.6.2.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.2/scalajs-library_2.11-0.6.2.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.2/scalajs-library_2.11-0.6.2.pom
+[debug] 	[SUCCESSFUL ] org.scala-js#scalajs-library_2.11;0.6.2!scalajs-library_2.11.pom(pom.original) (239ms)
+[debug] 		tried /Users/izzy/.ivy2/local/org.scala-js/scalajs-library_2.11/0.6.2/jars/scalajs-library_2.11.jar
+[debug] 		tried /doesnotexist/repository/org.scala-js/scalajs-library_2.11/0.6.2/jars/scalajs-library_2.11.jar
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.scala-js/scalajs-library_2.11/0.6.2/jars/scalajs-library_2.11.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.2/scalajs-library_2.11-0.6.2.jar
+[debug] 	found org.scala-js#scalajs-library_2.11;0.6.2 in public
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->master]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->default(compile)]
+[info] Resolving org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 {compile=[default(compile)]}
+[info] Resolving org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 {compile=[default(compile)]}
+[debug] 		tried /Users/izzy/.ivy2/local/org.scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0
+[debug] 		tried /doesnotexist/repository/org.scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0.pom
+[debug] 	public: found md file for org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0.pom (0.8.0)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0.pom
+[debug] 	[SUCCESSFUL ] org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0!scalajs-dom_sjs0.6_2.11.pom(pom.original) (238ms)
+[debug] 		tried /Users/izzy/.ivy2/local/org.scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/jars/scalajs-dom_sjs0.6_2.11.jar
+[debug] 		tried /doesnotexist/repository/org.scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/jars/scalajs-dom_sjs0.6_2.11.jar
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/jars/scalajs-dom_sjs0.6_2.11.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0.jar
+[debug] 	found org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 in public
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->master]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->master]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->master]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->master]
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->master]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->master]
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-library_2.11;0.6.2->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.2 [compile->master]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0->org.scala-js#scalajs-library_2.11;0.6.2 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->master]
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.6;0.6.2 [plugin->default(compile)]
+[info] Resolving org.scala-js#scalajs-compiler_2.11.6;0.6.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-compiler_2.11.6;0.6.2 {plugin=[default(compile)]}
+[info] Resolving org.scala-js#scalajs-compiler_2.11.6;0.6.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-js#scalajs-compiler_2.11.6;0.6.2 {plugin=[default(compile)]}
+[debug] 		tried /Users/izzy/.ivy2/local/org.scala-js/scalajs-compiler_2.11.6/0.6.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scala-js#scalajs-compiler_2.11.6;0.6.2
+[debug] 		tried /doesnotexist/repository/org.scala-js/scalajs-compiler_2.11.6/0.6.2/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.scala-js#scalajs-compiler_2.11.6;0.6.2
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.scala-js/scalajs-compiler_2.11.6/0.6.2/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.scala-js#scalajs-compiler_2.11.6;0.6.2
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.6/0.6.2/scalajs-compiler_2.11.6-0.6.2.pom
+[debug] 	public: found md file for org.scala-js#scalajs-compiler_2.11.6;0.6.2
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.6/0.6.2/scalajs-compiler_2.11.6-0.6.2.pom (0.6.2)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.6/0.6.2/scalajs-compiler_2.11.6-0.6.2.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.6/0.6.2/scalajs-compiler_2.11.6-0.6.2.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.6/0.6.2/scalajs-compiler_2.11.6-0.6.2.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.6/0.6.2/scalajs-compiler_2.11.6-0.6.2.pom
+[debug] 	[SUCCESSFUL ] org.scala-js#scalajs-compiler_2.11.6;0.6.2!scalajs-compiler_2.11.6.pom(pom.original) (234ms)
+[debug] 		tried /Users/izzy/.ivy2/local/org.scala-js/scalajs-compiler_2.11.6/0.6.2/jars/scalajs-compiler_2.11.6.jar
+[debug] 		tried /doesnotexist/repository/org.scala-js/scalajs-compiler_2.11.6/0.6.2/jars/scalajs-compiler_2.11.6.jar
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.scala-js/scalajs-compiler_2.11.6/0.6.2/jars/scalajs-compiler_2.11.6.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.6/0.6.2/scalajs-compiler_2.11.6-0.6.2.jar
+[debug] 	found org.scala-js#scalajs-compiler_2.11.6;0.6.2 in public
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.6;0.6.2 [plugin->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.6;0.6.2 [plugin->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.6;0.6.2->org.scala-lang#scala-compiler;2.11.6 [compile->master(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.11.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.6
+[debug] 	found org.scala-lang#scala-compiler;2.11.6 in sbt-chain
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.6;0.6.2->org.scala-lang#scala-compiler;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->master(*)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6
+[debug] 	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain
+[debug] 	[2.11.6] org.scala-lang#scala-reflect;2.11.6
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->master(*)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.3 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->master(*)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.6;0.6.2->org.scala-lang#scala-compiler;2.11.6 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.6;0.6.2->org.scala-lang#scala-compiler;2.11.6 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.6;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.6;0.6.2->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.6;0.6.2->org.scala-lang#scala-reflect;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.6;0.6.2->org.scala-lang#scala-reflect;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.6;0.6.2->org.scala-lang#scala-compiler;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.6;0.6.2->org.scala-lang#scala-compiler;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.6;0.6.2->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.6;0.6.2->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.6;0.6.2->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-js#scalajs-compiler_2.11.6;0.6.2->org.scala-lang#scala-reflect;2.11.6 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.6;0.6.2 [plugin->master]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [scala-tool->default]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [scala-tool->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [scala-tool->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->default]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.2 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.2 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang#scala-reflect;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.6->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-xml_2.11;1.0.3 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.2 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [scala-tool->master]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [scala-tool->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->jline#jline;2.12.1 [optional->master(*)]
+[info] Resolving jline#jline;2.12.1 ...
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {optional=[compile(*), master(*)]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
+[debug] 	found jline#jline;2.12.1 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.11.6->jline#jline;2.12.1 [optional->compile(*)]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [scala-tool->default]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [scala-tool->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [scala-tool->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [scala-tool->master]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [scala-tool->optional(default)]
+[debug] resolving dependencies for configuration 'phantom-js-jetty'
+[debug] == resolving dependencies for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT [phantom-js-jetty]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
+[info] Resolving org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
+[info] Resolving org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-websocket/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-websocket;8.1.16.v20140903
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-websocket/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.eclipse.jetty#jetty-websocket;8.1.16.v20140903
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-websocket/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.eclipse.jetty#jetty-websocket;8.1.16.v20140903
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-websocket;8.1.16.v20140903
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom (8.1.16.v20140903)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.pom(pom.original) (232ms)
+[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
+[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-project/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-project/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-project/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom (8.1.16.v20140903)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-project;8.1.16.v20140903!jetty-project.pom(pom.original) (308ms)
+[info] Resolving org.eclipse.jetty#jetty-parent;20 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-parent;20 {}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-parent;20
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-project/8.1.16.v20140903/jars/jetty-project.jar
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-project/8.1.16.v20140903/jars/jetty-project.jar
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-project/8.1.16.v20140903/jars/jetty-project.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/eclipse/jetty/jetty-project/8.1.16.v20140903/jetty-project-8.1.16.v20140903.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.jetty/jetty-project/8.1.16.v20140903/jars/jetty-project.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.jetty/jetty-project/8.1.16.v20140903/jars/jetty-project.jar
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-websocket/8.1.16.v20140903/jars/jetty-websocket.jar
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-websocket/8.1.16.v20140903/jars/jetty-websocket.jar
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-websocket/8.1.16.v20140903/jars/jetty-websocket.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar
+[debug] 	found org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 in public
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->master(compile)]
+[info] Resolving org.eclipse.jetty#jetty-util;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-util;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.eclipse.jetty#jetty-util;8.1.16.v20140903 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-util;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-util/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-util;8.1.16.v20140903
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-util/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.eclipse.jetty#jetty-util;8.1.16.v20140903
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-util/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.eclipse.jetty#jetty-util;8.1.16.v20140903
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-util;8.1.16.v20140903
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom (8.1.16.v20140903)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.pom(pom.original) (236ms)
+[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-util/8.1.16.v20140903/jars/jetty-util.jar
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-util/8.1.16.v20140903/jars/jetty-util.jar
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-util/8.1.16.v20140903/jars/jetty-util.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar
+[debug] 	found org.eclipse.jetty#jetty-util;8.1.16.v20140903 in public
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->master(compile)]
+[info] Resolving org.eclipse.jetty#jetty-io;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-io;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.eclipse.jetty#jetty-io;8.1.16.v20140903 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-io;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-io/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-io;8.1.16.v20140903
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-io/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.eclipse.jetty#jetty-io;8.1.16.v20140903
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-io/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.eclipse.jetty#jetty-io;8.1.16.v20140903
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-io;8.1.16.v20140903
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom (8.1.16.v20140903)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.pom(pom.original) (234ms)
+[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-io/8.1.16.v20140903/jars/jetty-io.jar
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-io/8.1.16.v20140903/jars/jetty-io.jar
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-io/8.1.16.v20140903/jars/jetty-io.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar
+[debug] 	found org.eclipse.jetty#jetty-io;8.1.16.v20140903 in public
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-io;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->master(compile)]
+[info] Resolving org.eclipse.jetty#jetty-http;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-http;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.eclipse.jetty#jetty-http;8.1.16.v20140903 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-http;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-http/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-http;8.1.16.v20140903
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-http/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.eclipse.jetty#jetty-http;8.1.16.v20140903
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-http/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.eclipse.jetty#jetty-http;8.1.16.v20140903
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-http;8.1.16.v20140903
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom (8.1.16.v20140903)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.pom(pom.original) (292ms)
+[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-http/8.1.16.v20140903/jars/jetty-http.jar
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-http/8.1.16.v20140903/jars/jetty-http.jar
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-http/8.1.16.v20140903/jars/jetty-http.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar
+[debug] 	found org.eclipse.jetty#jetty-http;8.1.16.v20140903 in public
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-http;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->master]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
+[info] Resolving org.eclipse.jetty#jetty-server;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-server;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
+[info] Resolving org.eclipse.jetty#jetty-server;8.1.16.v20140903 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-server;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-server/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-server;8.1.16.v20140903
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-server/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.eclipse.jetty#jetty-server;8.1.16.v20140903
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-server/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.eclipse.jetty#jetty-server;8.1.16.v20140903
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-server;8.1.16.v20140903
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom (8.1.16.v20140903)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.pom(pom.original) (254ms)
+[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-server/8.1.16.v20140903/jars/jetty-server.jar
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-server/8.1.16.v20140903/jars/jetty-server.jar
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-server/8.1.16.v20140903/jars/jetty-server.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar
+[debug] 	found org.eclipse.jetty#jetty-server;8.1.16.v20140903 in public
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->runtime]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->master(compile)]
+[info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty.orbit/javax.servlet/3.0.0.v201112011016/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty.orbit/javax.servlet/3.0.0.v201112011016/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty.orbit/javax.servlet/3.0.0.v201112011016/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
+[debug] 	public: found md file for org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom (3.0.0.v201112011016)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.pom(pom.original) (235ms)
+[info] Resolving org.eclipse.jetty.orbit#jetty-orbit;1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty.orbit#jetty-orbit;1 {}
+[info] Resolving org.eclipse.jetty.orbit#jetty-orbit;1 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty.orbit#jetty-orbit;1 {}
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty.orbit/jetty-orbit/1/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty.orbit#jetty-orbit;1
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty.orbit/jetty-orbit/1/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.eclipse.jetty.orbit#jetty-orbit;1
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty.orbit/jetty-orbit/1/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.eclipse.jetty.orbit#jetty-orbit;1
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom
+[debug] 	public: found md file for org.eclipse.jetty.orbit#jetty-orbit;1
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom (1)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty.orbit#jetty-orbit;1!jetty-orbit.pom(pom.original) (254ms)
+[info] Resolving org.eclipse.jetty#jetty-parent;18 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-parent;18 {}
+[info] Resolving org.eclipse.jetty#jetty-parent;18 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-parent;18 {}
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-parent/18/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-parent;18
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-parent/18/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.eclipse.jetty#jetty-parent;18
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-parent/18/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.eclipse.jetty#jetty-parent;18
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-parent;18
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom (18)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-parent;18!jetty-parent.pom(pom.original) (253ms)
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-parent/18/jars/jetty-parent.jar
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-parent/18/jars/jetty-parent.jar
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-parent/18/jars/jetty-parent.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/eclipse/jetty/jetty-parent/18/jetty-parent-18.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.jetty/jetty-parent/18/jars/jetty-parent.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.jetty/jetty-parent/18/jars/jetty-parent.jar
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty.orbit/jetty-orbit/1/jars/jetty-orbit.jar
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty.orbit/jetty-orbit/1/jars/jetty-orbit.jar
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty.orbit/jetty-orbit/1/jars/jetty-orbit.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/eclipse/jetty/orbit/jetty-orbit/1/jetty-orbit-1.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.jetty.orbit/jetty-orbit/1/jars/jetty-orbit.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.eclipse.jetty.orbit/jetty-orbit/1/jars/jetty-orbit.jar
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty.orbit/javax.servlet/3.0.0.v201112011016/orbits/javax.servlet.jar
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty.orbit/javax.servlet/3.0.0.v201112011016/orbits/javax.servlet.jar
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty.orbit/javax.servlet/3.0.0.v201112011016/orbits/javax.servlet.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
+[debug] 	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in public
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->master(compile)]
+[info] Resolving org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-continuation/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.eclipse.jetty#jetty-continuation;8.1.16.v20140903
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-continuation/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	activator-launcher-local: no ivy file found for org.eclipse.jetty#jetty-continuation;8.1.16.v20140903
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-continuation/8.1.16.v20140903/ivys/ivy.xml
+[debug] 	activator-local: no ivy file found for org.eclipse.jetty#jetty-continuation;8.1.16.v20140903
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom
+[debug] 	public: found md file for org.eclipse.jetty#jetty-continuation;8.1.16.v20140903
+[debug] 		=> https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom (8.1.16.v20140903)
+[debug] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.pom
+[debug] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.pom(pom.original) (257ms)
+[info] Resolving org.eclipse.jetty#jetty-project;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-project;8.1.16.v20140903 {}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-project;8.1.16.v20140903
+[debug] 		tried /Users/izzy/.ivy2/local/org.eclipse.jetty/jetty-continuation/8.1.16.v20140903/jars/jetty-continuation.jar
+[debug] 		tried /doesnotexist/repository/org.eclipse.jetty/jetty-continuation/8.1.16.v20140903/jars/jetty-continuation.jar
+[debug] 		tried /usr/local/Cellar/typesafe-activator/1.3.2/libexec/repository/org.eclipse.jetty/jetty-continuation/8.1.16.v20140903/jars/jetty-continuation.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar
+[debug] 	found org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 in public
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [compile->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->master(compile)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [compile->compile(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [runtime->compile]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->runtime(*)]
+[debug] == resolving dependencies org.eclipse.jetty#jetty-server;8.1.16.v20140903->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [runtime->compile]
+[debug] == resolving dependencies webui#webui_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.2/scalajs-library_2.11-0.6.2.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.2/scalajs-library_2.11-0.6.2.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.2/scalajs-library_2.11-0.6.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.2/scalajs-library_2.11-0.6.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.2/scalajs-library_2.11-0.6.2.jar
+[info] 	[SUCCESSFUL ] org.scala-js#scalajs-library_2.11;0.6.2!scalajs-library_2.11.jar (6924ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0.jar
+[info] 	[SUCCESSFUL ] org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0!scalajs-dom_sjs0.6_2.11.jar (1602ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.6/0.6.2/scalajs-compiler_2.11.6-0.6.2.jar
+[info] downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.6/0.6.2/scalajs-compiler_2.11.6-0.6.2.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.6/0.6.2/scalajs-compiler_2.11.6-0.6.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.6/0.6.2/scalajs-compiler_2.11.6-0.6.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.11.6/0.6.2/scalajs-compiler_2.11.6-0.6.2.jar
+[info] 	[SUCCESSFUL ] org.scala-js#scalajs-compiler_2.11.6;0.6.2!scalajs-compiler_2.11.6.jar (1091ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(bundle)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar (326ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar (453ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar (407ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar (301ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar (322ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit) (375ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar
+[info] downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar (262ms)
+[debug] :: resolution report :: resolve 6343ms :: artifacts dl 12072ms
+[debug] 	report for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT compile produced in /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/web-ui/target/resolution-cache/reports/webui-webui_sjs0.6_2.11-compile.xml
+[debug] 	report for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT runtime produced in /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/web-ui/target/resolution-cache/reports/webui-webui_sjs0.6_2.11-runtime.xml
+[debug] 	report for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT test produced in /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/web-ui/target/resolution-cache/reports/webui-webui_sjs0.6_2.11-test.xml
+[debug] 	report for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT provided produced in /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/web-ui/target/resolution-cache/reports/webui-webui_sjs0.6_2.11-provided.xml
+[debug] 	report for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT optional produced in /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/web-ui/target/resolution-cache/reports/webui-webui_sjs0.6_2.11-optional.xml
+[debug] 	report for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT compile-internal produced in /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/web-ui/target/resolution-cache/reports/webui-webui_sjs0.6_2.11-compile-internal.xml
+[debug] 	report for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT runtime-internal produced in /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/web-ui/target/resolution-cache/reports/webui-webui_sjs0.6_2.11-runtime-internal.xml
+[debug] 	report for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT test-internal produced in /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/web-ui/target/resolution-cache/reports/webui-webui_sjs0.6_2.11-test-internal.xml
+[debug] 	report for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT plugin produced in /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/web-ui/target/resolution-cache/reports/webui-webui_sjs0.6_2.11-plugin.xml
+[debug] 	report for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT sources produced in /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/web-ui/target/resolution-cache/reports/webui-webui_sjs0.6_2.11-sources.xml
+[debug] 	report for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT docs produced in /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/web-ui/target/resolution-cache/reports/webui-webui_sjs0.6_2.11-docs.xml
+[debug] 	report for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT pom produced in /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/web-ui/target/resolution-cache/reports/webui-webui_sjs0.6_2.11-pom.xml
+[debug] 	report for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT scala-tool produced in /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/web-ui/target/resolution-cache/reports/webui-webui_sjs0.6_2.11-scala-tool.xml
+[debug] 	report for webui#webui_sjs0.6_2.11;0.1-SNAPSHOT phantom-js-jetty produced in /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/web-ui/target/resolution-cache/reports/webui-webui_sjs0.6_2.11-phantom-js-jetty.xml
+[debug] 	resolve done (6343ms resolve - 12072ms download)
+[info] Done updating.

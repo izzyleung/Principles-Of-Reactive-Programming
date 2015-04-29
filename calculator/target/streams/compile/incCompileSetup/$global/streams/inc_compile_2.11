@@ -1,0 +1,434 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes
+compile options:
+2 items
+0 -> -deprecation
+1 -> -feature
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.5
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+42 items
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Calculator$$anonfun$computeValues$1$$anonfun$apply$1.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Calculator$$anonfun$computeValues$1.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Calculator$$anonfun$getReferenceExpr$1.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Calculator$$anonfun$getReferenceExpr$2.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Calculator$.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Calculator.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Divide$.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Divide.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Expr.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Literal$.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Literal.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Minus$.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Minus.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Plus$.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Plus.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Ref$.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Ref.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Times$.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Times.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Polynomial$$anonfun$computeDelta$1.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Polynomial$$anonfun$computeSolutions$1.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Polynomial$.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Polynomial.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/NoSignal$$anonfun$$lessinit$greater$1.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/NoSignal$.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/NoSignal.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Signal$$anonfun$1.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Signal$$anonfun$apply$1.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Signal$$anonfun$computeValue$1.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Signal$$anonfun$computeValue$2.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Signal$.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Signal.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Var$.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Var.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/TweetLength$$anonfun$calculator$TweetLength$$tweetLength$1.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/TweetLength$$anonfun$colorForRemainingCharsCount$1.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/TweetLength$$anonfun$tweetRemainingCharsCount$1.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/TweetLength$.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/TweetLength.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/common/package$$anonfun$subFile$1.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/common/package$.class
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/common/package.class
+binary dependencies:
+10 items
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> /Users/izzy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> /Users/izzy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> /Users/izzy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> /Users/izzy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+3 items
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> /Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+42 items
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Calculator
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Calculator$
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Calculator$$anonfun$computeValues$1
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Calculator$$anonfun$computeValues$1$$anonfun$apply$1
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Calculator$$anonfun$getReferenceExpr$1
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Calculator$$anonfun$getReferenceExpr$2
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Divide
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Divide$
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Expr
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Literal
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Literal$
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Minus
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Minus$
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Plus
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Plus$
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Ref
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Ref$
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Times
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator.Times$
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> calculator.Polynomial
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> calculator.Polynomial$
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> calculator.Polynomial$$anonfun$computeDelta$1
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> calculator.Polynomial$$anonfun$computeSolutions$1
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> calculator.NoSignal
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> calculator.NoSignal$
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> calculator.NoSignal$$anonfun$$lessinit$greater$1
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> calculator.Signal
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> calculator.Signal$
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> calculator.Signal$$anonfun$1
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> calculator.Signal$$anonfun$apply$1
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> calculator.Signal$$anonfun$computeValue$1
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> calculator.Signal$$anonfun$computeValue$2
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> calculator.Var
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> calculator.Var$
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> calculator.TweetLength
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> calculator.TweetLength$
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> calculator.TweetLength$$anonfun$calculator$TweetLength$$tweetLength$1
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> calculator.TweetLength$$anonfun$colorForRemainingCharsCount$1
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> calculator.TweetLength$$anonfun$tweetRemainingCharsCount$1
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> common.package
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> common.package$
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> common.package$$anonfun$subFile$1
+used names:
+200 items
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> &&
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> *
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> +
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> -
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> ->
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> /
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> <init>
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> ==
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> AbstractFunction1
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> AbstractFunction2
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> AnyRef
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> Calculator
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> Divide
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> Double
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> Expr
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> Literal
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> Map
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> Minus
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> None
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> Plus
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> Predef
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> Product
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> Ref
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> ScalaRunTime
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> Serializable
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> Signal
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> Statics
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> String
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> Times
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> _1
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> _2
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> _hashCode
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> _toString
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> a
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> apply
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> asInstanceOf
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> b
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> calculator
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> doubleHash
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> eq
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> eval
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> expr
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> exprSignal
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> finalizeHash
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> fold
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> foreach
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> get
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> getReferenceExpr
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> isInstanceOf
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> k
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> mix
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> name
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> namedExpressions
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> ne
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> references
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> result
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> runtime
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> scala
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> toString
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> typedProductIterator
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> v
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> ||
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> *
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> +
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> -
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> /
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> <init>
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> ==
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> >
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> AnyRef
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> Double
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> Polynomial
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> Predef
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> Set
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> Signal
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> a
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> apply
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> b
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> c
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> calculator
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> computeDelta
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> math
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> package
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> result
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> scala
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> sqrt
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> unary_-
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> +
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> -
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> ::
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> <byname>
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> <init>
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> ???
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> AnyRef
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> DynamicVariable
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> Function0
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> List
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> Nil
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> NoSignal
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> Nothing
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> Predef
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> Set
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> Signal
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> T
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> Unit
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> Var
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> _root_
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> apply
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> assert
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> calculator
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> caller
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> computeValue
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> contains
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> expr
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> foreach
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> immutable
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> myExpr
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> myExpr_=
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> myValue
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> myValue_=
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> newValue
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> obs
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> observed
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> observed_=
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> observers
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> observers_=
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> package
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> scala
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> sig
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> unary_!
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> update
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> util
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> value
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> withValue
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> &&
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> -
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> <=
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> <init>
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> >=
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> AnyRef
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> Character
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> Int
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> Predef
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> Signal
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> String
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> TweetLength
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> apply
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> augmentString
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> calculator
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> count
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> fallbackStringCanBuildFrom
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> init
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> isEmpty
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> isSurrogatePair
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> java
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> lang
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> length
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> remainingCharsCount
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> scala
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> tail
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> text
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> tupled
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> tweetLength
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> tweetText
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> wrapString
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> zip
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> ::
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> <init>
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> <repeated>
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> Any
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> AnyRef
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> File
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> FileInputStream
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> InputStream
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> List
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> None
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> Nothing
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> Option
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> Predef
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> String
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> _root_
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> child
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> children
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> classesDir
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> common
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> exists
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> file
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> foldLeft
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> getClass
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> getParentFile
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> getResource
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> io
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> java
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> package
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> projectDir
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> resourceFile
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> resourcePath
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> scala
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> subFile
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> toURI
+product stamps:
+42 items
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Calculator$$anonfun$computeValues$1$$anonfun$apply$1.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Calculator$$anonfun$computeValues$1.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Calculator$$anonfun$getReferenceExpr$1.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Calculator$$anonfun$getReferenceExpr$2.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Calculator$.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Calculator.class -> lastModified(1429552498000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Divide$.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Divide.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Expr.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Literal$.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Literal.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Minus$.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Minus.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/NoSignal$$anonfun$$lessinit$greater$1.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/NoSignal$.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/NoSignal.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Plus$.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Plus.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Polynomial$$anonfun$computeDelta$1.class -> lastModified(1429554262000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Polynomial$$anonfun$computeSolutions$1.class -> lastModified(1429554262000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Polynomial$.class -> lastModified(1429554262000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Polynomial.class -> lastModified(1429554262000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Ref$.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Ref.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Signal$$anonfun$1.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Signal$$anonfun$apply$1.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Signal$$anonfun$computeValue$1.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Signal$$anonfun$computeValue$2.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Signal$.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Signal.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Times$.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Times.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/TweetLength$$anonfun$calculator$TweetLength$$tweetLength$1.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/TweetLength$$anonfun$colorForRemainingCharsCount$1.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/TweetLength$$anonfun$tweetRemainingCharsCount$1.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/TweetLength$.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/TweetLength.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Var$.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/calculator/Var.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/common/package$$anonfun$subFile$1.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/common/package$.class -> lastModified(1429552499000)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/target/scala-2.11/classes/common/package.class -> lastModified(1429552499000)
+source stamps:
+5 items
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> hash(661237dfdfce3e925ecf8997034ce986e905d478)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> hash(c092fb02fcb5257c9fc668bfcf22b926a54b8ad4)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> hash(f5a6296731e63462e7bc526b412634843c732002)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> hash(d1460106a9276a1b7e900c4c8e48f6d1e29e466f)
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> hash(959d2de80692406118ffed481da44534a9da824a)
+binary stamps:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1423632360000)
+/Users/izzy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar -> lastModified(1420590731000)
+class names:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/izzy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar -> scala.collection.immutable.Set
+internal apis:
+5 items
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDXmUDVAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAK3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLZ2ElR0AA1jb21wdXRlVmFsdWVzc3EAfgAMOU4zbHQABm5vdGlmeXNxAH4ADBtJ0QJ0AARuYW1lc3EAfgAMtgS3dnQABHdhaXRzcQB+AAyknsqEdAAOY29weSRkZWZhdWx0JDJzcQB+AAyo0Gq8dAANJGFzSW5zdGFuY2VPZnNxAH4ADHA4H8N0AAxwcm9kdWN0QXJpdHlzcQB+AAzas7drdAAGZXF1YWxzc3EAfgAMvUyfn3QADGFzSW5zdGFuY2VPZnNxAH4ADBfuOBd0AARFeHByc3EAfgAM7UPdenQABkRpdmlkZXNxAH4ADEVs9BN0AAxzeW5jaHJvbml6ZWRzcQB+AAzT/0BzdAABYXNxAH4ADJnIAVp0AA0kaXNJbnN0YW5jZU9mc3EAfgAMJvJ72XQAB0xpdGVyYWxzcQB+AAzHPbQ7dAAIY2FuRXF1YWxzcQB+AAzZusIGdAANcHJvZHVjdFByZWZpeHNxAH4ADIWuK7B0AAlub3RpZnlBbGxzcQB+AAxOfpeddAAEUGx1c3NxAH4ADOeNDyp0AAxpc0luc3RhbmNlT2ZzcQB+AAzWsyLfdAAEZXZhbHNxAH4ADHkIfsN0AAVNaW51c3NxAH4ADCWCcJB0AAF2c3EAfgAM+VF4ynQABjxpbml0PnNxAH4ADPkCh8Z0AAFic3EAfgAMERdYK3QAAj09c3EAfgAMQgLe23QABWNsb25lc3EAfgAM3Xx/2XQAEGdldFJlZmVyZW5jZUV4cHJzcQB+AAxINSqldAAEY29weXNxAH4ADH7jdjl0AAh0b1N0cmluZ3NxAH4ADGH+8UV0AAIhPXNxAH4ADPI4LSt0AAVUaW1lc3NxAH4ADCSmfld0AAhnZXRDbGFzc3NxAH4ADNm8C9R0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADCFQS+N0AAJuZXNxAH4ADKRoYRF0AAJlcXNxAH4ADA7/EJ10AApDYWxjdWxhdG9yc3EAfgAMev96ZHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADN59SpJ0AAIjI3NxAH4ADH33r1l0AAhmaW5hbGl6ZXNxAH4ADOUfyLN0AANSZWZzcQB+AAxzV2UOdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAxwrCDddAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAAIc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBteHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAJdAAPY2FsY3VsYXRvci5FeHBydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AIUBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AG1MAAlpbmhlcml0ZWRxAH4AbUwAB3BhcmVudHNxAH4AbXhxAH4AjHNxAH4AhQF1cQB+AGgAAAAAcHNxAH4AhQF1cQB+AGgAAAAAcHNxAH4AhQF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGk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AfgCFAXEAfgCNcHNxAH4AhQFzcQB+AI9zcQB+AIUBdXEAfgBoAAAAAHBzcQB+AIUBdXEAfgBoAAAAAHBzcQB+AIUBdXEAfgCWAAAAB3NxAH4AmHEAfgDDc3EAfgCcc3EAfgCfdXEAfgCiAAAAAnNxAH4ApHEAfgCycQB+AKtzcQB+AJhxAH4Aw3NxAH4AnHNxAH4An3VxAH4AogAAAANzcQB+AKRxAH4Ap3NxAH4ApHQAAmlvcQB+AKtzcQB+AJhxAH4A0HEAfgGdc3EAfgCYdAAGRXF1YWxzcQB+AZ1zcQB+AJhxAH4A1HNxAH4AnHNxAH4An3VxAH4AogAAAAJzcQB+AKR0AApjYWxjdWxhdG9ycQB+AKtzcQB+AJhxAH4Am3NxAH4AnHNxAH4An3VxAH4AogAAAANzcQB+AKRxAH4Ap3NxAH4ApHEAfgCpcQB+AKtzcQB+AJhxAH4ArXEAfgGdcHBzcQB+AGpxAH4Ad3VxAH4AeAAAAABzcQB+AHoAdAAVY2FsY3VsYXRvci5DYWxjdWxhdG9ydXEAfgB9AAAAAH5xAH4Af3QABk1vZHVsZXVxAH4AgwAAAABzcQB+AIUBcQB+AI1wc3EAfgCFAXNxAH4Aj3NxAH4AhQF1cQB+AGgAAAAAcHNxAH4AhQF1cQB+AGgAAAAAcHNxAH4AhQF1cQB+AJYAAAACc3EAfgCYcQB+AJtzcQB+AJxzcQB+AJ91cQB+AKIAAAADc3EAfgCkcQB+AKdzcQB+AKRxAH4AqXEAfgCrc3EAfgCYcQB+AK1zcQB+AJxzcQB+AJ91cQB+AKIAAAACc3EAfgCkcQB+ALJxAH4Aq3BwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAKY2FsY3VsYXRvcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTNf34pR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABeL1VzZXJzL2l6enkvRHJvcGJveC9TY2FsYS9QcmluY2lwbGVzT2ZSZWFjdGl2ZVByb2dyYW1taW5nL2NhbGN1bGF0b3IvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFGYSN9/fzj6SXs+JlwNM6YbpBdR4
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBmvcoLAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPHdxwp0AAZub3RpZnlzcQB+AAyPiLIadAAEd2FpdHNxAH4ADCGybFd0AA0kYXNJbnN0YW5jZU9mc3EAfgAMaa+zrHQABmVxdWFsc3NxAH4ADDF0Wz10AAxhc0luc3RhbmNlT2ZzcQB+AAz77txydAAMc3luY2hyb25pemVkc3EAfgAMom9zHHQADSRpc0luc3RhbmNlT2ZzcQB+AAzUbSSrdAAMY29tcHV0ZURlbHRhc3EAfgAMYHA20nQACW5vdGlmeUFsbHNxAH4ADGb+T9R0ABBjb21wdXRlU29sdXRpb25zc3EAfgAMNe0kdHQADGlzSW5zdGFuY2VPZnNxAH4ADMkr9lF0AAI9PXNxAH4ADHUkybt0AAVjbG9uZXNxAH4ADMEU3Al0AApQb2x5bm9taWFsc3EAfgAMf6/yF3QACHRvU3RyaW5nc3EAfgAMpFYPsHQAAiE9c3EAfgAM8uOjJnQACGdldENsYXNzc3EAfgAMwUqwf3QAAm5lc3EAfgAMyFsmJXQAAmVxc3EAfgAM7unh2nQAAiMjc3EAfgAMClux1XQACGZpbmFsaXplc3EAfgAMQk02KXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAFWNhbGN1bGF0b3IuUG9seW5vbWlhbHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AWwFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQ0wACWluaGVyaXRlZHEAfgBDTAAHcGFyZW50c3EAfgBDeHEAfgBic3EAfgBbAXVxAH4APgAAAABwc3EAfgBbAXVxAH4APgAAAABwc3EAfgBbAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYXQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AenQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ae3NxAH4AbnQAA0FueXNxAH4AcnNxAH4AdXVxAH4AeAAAAAJzcQB+AHp0AAVzY2FsYXEAfgCBcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AApjYWxjdWxhdG9yc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFM2BLqI3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AF4vVXNlcnMvaXp6eS9Ecm9wYm94L1NjYWxhL1ByaW5jaXBsZXNPZlJlYWN0aXZlUHJvZ3JhbW1pbmcvY2FsY3VsYXRvci90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUwJL7Avy1JXyfxmi/zyK5JqVLitQ=
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCcrnOcAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAH3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMgm1u10AAlvYnNlcnZlcnNzcQB+AAwNwvZRdAAGbm90aWZ5c3EAfgAMJ20wkXQABHdhaXRzcQB+AAzXche6dAANJGFzSW5zdGFuY2VPZnNxAH4ADEkSKEl0AANWYXJzcQB+AAzYZGUgdAAGU2lnbmFsc3EAfgAMPZGWgHQABmVxdWFsc3NxAH4ADH9wuWp0AAxhc0luc3RhbmNlT2ZzcQB+AAySrf1cdAAMc3luY2hyb25pemVkc3EAfgAMfl2vW3QADSRpc0luc3RhbmNlT2ZzcQB+AAzXskNIdAAJbm90aWZ5QWxsc3EAfgAMiJsE43QADGlzSW5zdGFuY2VPZnNxAH4ADOPjrVR0AAhOb1NpZ25hbHNxAH4ADL0t7AN0AAY8aW5pdD5zcQB+AAx0QuKGdAAFYXBwbHlzcQB+AAwq2znudAACPT1zcQB+AAzcW5MndAAFY2xvbmVzcQB+AAyuIZRFdAAIdG9TdHJpbmdzcQB+AAygwr9edAACIT1zcQB+AAzCJgP9dAAMY29tcHV0ZVZhbHVlc3EAfgAMJxW6pXQACGdldENsYXNzc3EAfgAMolWCoHQABnVwZGF0ZXNxAH4ADMH9GTF0AAJuZXNxAH4ADKU5W790AAZteUV4cHJzcQB+AAyp3IITdAAHbXlWYWx1ZXNxAH4ADO355410AAJlcXNxAH4ADHj8BPZ0AAIjI3NxAH4ADLuXmDB0AAhmaW5hbGl6ZXNxAH4ADJp7oCh0AAZjYWxsZXJzcQB+AAwBJX6TdAAIaGFzaENvZGVzcQB+AAwWZUQkdAAIb2JzZXJ2ZWRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAAFc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBVeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAARY2FsY3VsYXRvci5TaWduYWx1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcmdpVdvjcpBrAgAGWwALYW5ub3RhdGlvbnNxAH4AWkwAAmlkcQB+AA1MAApsb3dlckJvdW5kdAAQTHhzYnRpL2FwaS9UeXBlO1sADnR5cGVQYXJhbWV0ZXJzcQB+AFdMAAp1cHBlckJvdW5kcQB+AGhMAAh2YXJpYW5jZXQAFEx4c2J0aS9hcGkvVmFyaWFuY2U7eHB1cQB+AGAAAAAAdAATY2FsY3VsYXRvci5TaWduYWwuVHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHB0AAdOb3RoaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBvc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB8dXEAfgBlAAAAAHNxAH4AbXQAA0FueXEAfgB1fnIAEnhzYnRpLmFwaS5WYXJpYW5jZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACUludmFyaWFudH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhxAH4AhXQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cQB+AG9wc3EAfgCNAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBVTAAJaW5oZXJpdGVkcQB+AFVMAAdwYXJlbnRzcQB+AFV4cQB+AHBzcQB+AI0BdXEAfgBQAAAAAHBzcQB+AI0BdXEAfgBQAAAAAHBzcQB+AI0BdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcQB+AG10AAZPYmplY3RzcQB+AHNzcQB+AHZ1cQB+AHkAAAADc3EAfgB7dAAEamF2YXNxAH4Ae3QABGxhbmdxAH4AgHNxAH4AbXEAfgCDc3EAfgBzc3EAfgB2dXEAfgB5AAAAAnNxAH4Ae3EAfgB+cQB+AIBwcHNxAH4AUnEAfgBfdXEAfgBgAAAAAHNxAH4AYgB0AA5jYWxjdWxhdG9yLlZhcnVxAH4AZQAAAAFzcQB+AGd1cQB+AGAAAAAAdAAQY2FsY3VsYXRvci5WYXIuVHEAfgBxdXEAfgBlAAAAAHEAfgCCcQB+AIZxAH4AiXVxAH4AiwAAAABzcQB+AI0BcQB+AJNwc3EAfgCNAXNxAH4AlXNxAH4AjQF1cQB+AFAAAAAAcHNxAH4AjQF1cQB+AFAAAAAAcHNxAH4AjQF1cQB+AJwAAAADc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBuWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBvc3EAfgBtdAAGU2lnbmFsc3EAfgBzc3EAfgB2dXEAfgB5AAAAAnNxAH4Ae3QACmNhbGN1bGF0b3JxAH4AgHVxAH4AnAAAAAFzcgAWeHNidGkuYXBpLlBhcmFtZXRlclJlZj/Y4zkALHOwAgABTAACaWRxAH4ADXhxAH4Ab3QAEGNhbGN1bGF0b3IuVmFyLlRzcQB+AG1xAH4An3NxAH4Ac3NxAH4AdnVxAH4AeQAAAANzcQB+AHtxAH4ApHNxAH4Ae3EAfgCmcQB+AIBzcQB+AG1xAH4Ag3NxAH4Ac3NxAH4AdnVxAH4AeQAAAAJzcQB+AHtxAH4AfnEAfgCAcHBzcQB+AFJxAH4AX3VxAH4AYAAAAABzcQB+AGIAdAAOY2FsY3VsYXRvci5WYXJ1cQB+AGUAAAAAfnEAfgCIdAAGTW9kdWxldXEAfgCLAAAAAHNxAH4AjQFxAH4Ak3BzcQB+AI0Bc3EAfgCVc3EAfgCNAXVxAH4AUAAAAABwc3EAfgCNAXVxAH4AUAAAAABwc3EAfgCNAXVxAH4AnAAAAAJzcQB+AG1xAH4An3NxAH4Ac3NxAH4AdnVxAH4AeQAAAANzcQB+AHtxAH4ApHNxAH4Ae3EAfgCmcQB+AIBzcQB+AG1xAH4Ag3NxAH4Ac3NxAH4AdnVxAH4AeQAAAAJzcQB+AHtxAH4AfnEAfgCAcHBzcQB+AFJxAH4AX3VxAH4AYAAAAABzcQB+AGIAdAATY2FsY3VsYXRvci5Ob1NpZ25hbHVxAH4AZQAAAABxAH4A3XVxAH4AiwAAAABzcQB+AI0BcQB+AJNwc3EAfgCNAXNxAH4AlXNxAH4AjQF1cQB+AFAAAAAAcHNxAH4AjQF1cQB+AFAAAAAAcHNxAH4AjQF1cQB+AJwAAAADc3EAfgC/c3EAfgBtdAAGU2lnbmFsc3EAfgBzc3EAfgB2dXEAfgB5AAAAAnNxAH4Ae3QACmNhbGN1bGF0b3JxAH4AgHVxAH4AnAAAAAFzcQB+AG1xAH4AcnNxAH4Ac3NxAH4AdnVxAH4AeQAAAAJzcQB+AHtxAH4AfnEAfgCAc3EAfgBtcQB+AJ9zcQB+AHNzcQB+AHZ1cQB+AHkAAAADc3EAfgB7cQB+AKRzcQB+AHtxAH4ApnEAfgCAc3EAfgBtcQB+AINxAH4BDXBwc3EAfgBScQB+AF91cQB+AGAAAAAAc3EAfgBiAHQAEWNhbGN1bGF0b3IuU2lnbmFsdXEAfgBlAAAAAHEAfgDddXEAfgCLAAAAAHNxAH4AjQFxAH4Ak3BzcQB+AI0Bc3EAfgCVc3EAfgCNAXVxAH4AUAAAAABwc3EAfgCNAXVxAH4AUAAAAABwc3EAfgCNAXVxAH4AnAAAAAJzcQB+AG1xAH4An3NxAH4Ac3NxAH4AdnVxAH4AeQAAAANzcQB+AHtxAH4ApHNxAH4Ae3EAfgCmcQB+AIBzcQB+AG1xAH4Ag3NxAH4Ac3NxAH4AdnVxAH4AeQAAAAJzcQB+AHtxAH4AfnEAfgCAcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AApjYWxjdWxhdG9yc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFM1/filHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AF4vVXNlcnMvaXp6eS9Ecm9wYm94L1NjYWxhL1ByaW5jaXBsZXNPZlJlYWN0aXZlUHJvZ3JhbW1pbmcvY2FsY3VsYXRvci90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU9aYpZzHmNGLnvFJrQSY0hDxzIAI=
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBSyflxAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cA8DT5F0AAZub3RpZnlzcQB+AAw36CLWdAAYdHdlZXRSZW1haW5pbmdDaGFyc0NvdW50c3EAfgAM1a3kwXQABHdhaXRzcQB+AAxdgwScdAANJGFzSW5zdGFuY2VPZnNxAH4ADFkburh0AAZlcXVhbHNzcQB+AAytaFxZdAAMYXNJbnN0YW5jZU9mc3EAfgAM3f93o3QAG2NvbG9yRm9yUmVtYWluaW5nQ2hhcnNDb3VudHNxAH4ADL4frMB0AAxzeW5jaHJvbml6ZWRzcQB+AAzJlZiHdAANJGlzSW5zdGFuY2VPZnNxAH4ADLHPOyp0AA5NYXhUd2VldExlbmd0aHNxAH4ADK6d1K50AAlub3RpZnlBbGxzcQB+AAweJIi7dAAMaXNJbnN0YW5jZU9mc3EAfgAMS2PSM3QAAj09c3EAfgAMUvHWCXQABWNsb25lc3EAfgAMUPlgdXQACHRvU3RyaW5nc3EAfgAMhoLzeHQAAiE9c3EAfgAME9cqH3QAC3R3ZWV0TGVuZ3Roc3EAfgAM/6oAanQACGdldENsYXNzc3EAfgAMc3grUXQAAm5lc3EAfgAMUmNoF3QAC1R3ZWV0TGVuZ3Roc3EAfgAM+ob0c3QAAmVxc3EAfgAMojAZlHQAAiMjc3EAfgAMvYw0D3QACGZpbmFsaXplc3EAfgAMX8mu+3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AR3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAFmNhbGN1bGF0b3IuVHdlZXRMZW5ndGh1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AF8Bc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEdMAAlpbmhlcml0ZWRxAH4AR0wAB3BhcmVudHNxAH4AR3hxAH4AZnNxAH4AXwF1cQB+AEIAAAAAcHNxAH4AXwF1cQB+AEIAAAAAcHNxAH4AXwF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGV0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AH50AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH9zcQB+AHJ0AANBbnlzcQB+AHZzcQB+AHl1cQB+AHwAAAACc3EAfgB+dAAFc2NhbGFxAH4AhXBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAKY2FsY3VsYXRvcnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTNf34pR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABeL1VzZXJzL2l6enkvRHJvcGJveC9TY2FsYS9QcmluY2lwbGVzT2ZSZWFjdGl2ZVByb2dyYW1taW5nL2NhbGN1bGF0b3IvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFNFGAQapJ2obfpAMTI5I9tHinkZv
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCH2I3RAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMm+MXx0AAZub3RpZnlzcQB+AAyE/M00dAAHcGFja2FnZXNxAH4ADCYSurZ0AAR3YWl0c3EAfgAM8efqjHQADSRhc0luc3RhbmNlT2ZzcQB+AAzNivwPdAAGZXF1YWxzc3EAfgAM8WxUaXQADGFzSW5zdGFuY2VPZnNxAH4ADM7IhUp0AAxzeW5jaHJvbml6ZWRzcQB+AAxYw5T1dAANJGlzSW5zdGFuY2VPZnNxAH4ADKo9iEt0ABdyZXNvdXJjZUFzU3RyZWFtRnJvbVNyY3NxAH4ADIN8vFN0AAlub3RpZnlBbGxzcQB+AAwmJKnKdAAMaXNJbnN0YW5jZU9mc3EAfgAMacTab3QAAz8/P3NxAH4ADJp6YJF0AAI9PXNxAH4ADPKN8FN0AAVjbG9uZXNxAH4ADGdM1iN0AAdzdWJGaWxlc3EAfgAMJCvh6HQACHRvU3RyaW5nc3EAfgAMP7rEanQAAiE9c3EAfgAMCJe6qnQACGdldENsYXNzc3EAfgAMCCpDk3QAAm5lc3EAfgAMGnQJi3QAAmVxc3EAfgAMkxI1z3QAAiMjc3EAfgAMjXTkU3QACGZpbmFsaXplc3EAfgAMVNQ/iHQACGhhc2hDb2Rlc3EAfgAMe21E9HQAAyoqKnNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AA5jb21tb24ucGFja2FnZXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AXwFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AR0wACWluaGVyaXRlZHEAfgBHTAAHcGFyZW50c3EAfgBHeHEAfgBmc3EAfgBfAXVxAH4AQgAAAABwc3EAfgBfAXVxAH4AQgAAAABwc3EAfgBfAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AZXQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AfnQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Af3NxAH4AcnQAA0FueXNxAH4AdnNxAH4AeXVxAH4AfAAAAAJzcQB+AH50AAVzY2FsYXEAfgCFcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZjb21tb25zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAUzX9+KUdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAXi9Vc2Vycy9penp5L0Ryb3Bib3gvU2NhbGEvUHJpbmNpcGxlc09mUmVhY3RpdmVQcm9ncmFtbWluZy9jYWxjdWxhdG9yL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSVnS3oBpJAYRj/7UgdpEU0qdqCSg==
+external apis:
+0 items
+source infos:
+5 items
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Calculator.scala -> 
+AAAAAAAAAAA=
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Polynomial.scala -> 
+AAAAAAAAAAA=
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/Signal.scala -> 
+AAAAAAAAAAA=
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/calculator/TweetLength.scala -> 
+AAAAAAAAAAA=
+/Users/izzy/Dropbox/Scala/PrinciplesOfReactiveProgramming/calculator/src/main/scala/common/package.scala -> 
+AAAAAAAAAAA=
+compilations:
+4 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTNd1Q9Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXi9Vc2Vycy9penp5L0Ryb3Bib3gvU2NhbGEvUHJpbmNpcGxlc09mUmVhY3RpdmVQcm9ncmFtbWluZy9jYWxjdWxhdG9yL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTNeaYAF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXi9Vc2Vycy9penp5L0Ryb3Bib3gvU2NhbGEvUHJpbmNpcGxlc09mUmVhY3RpdmVQcm9ncmFtbWluZy9jYWxjdWxhdG9yL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTNf34pR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXi9Vc2Vycy9penp5L0Ryb3Bib3gvU2NhbGEvUHJpbmNpcGxlc09mUmVhY3RpdmVQcm9ncmFtbWluZy9jYWxjdWxhdG9yL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTNgS6iN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAXi9Vc2Vycy9penp5L0Ryb3Bib3gvU2NhbGEvUHJpbmNpcGxlc09mUmVhY3RpdmVQcm9ncmFtbWluZy9jYWxjdWxhdG9yL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEv

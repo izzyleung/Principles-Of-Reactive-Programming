@@ -1,0 +1,5 @@
+[0m[[0minfo[0m] [0m[32mNodeScalaSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- A Future should always be completed[0m[0m
+[0m[[0minfo[0m] [0m[32m- A Future should never be completed[0m[0m
+[0m[[0minfo[0m] [0m[32m- CancellationTokenSource should allow stopping the computation[0m[0m
+[0m[[0minfo[0m] [0m[32m- Server should serve requests[0m[0m
