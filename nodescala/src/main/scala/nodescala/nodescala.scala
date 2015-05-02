@@ -55,10 +55,10 @@ trait NodeScala {
     val processSubscription = Future.run() { ct =>
       async {
         while (ct.nonCancelled) {
-          val (req, exch) = await {
+          val (req, xchg) = await {
             listener.nextRequest()
           }
-          respond(exch, ct, handler(req))
+          respond(xchg, ct, handler(req))
         }
       }
     }

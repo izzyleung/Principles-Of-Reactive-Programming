@@ -32,19 +32,7 @@ object Main {
     // TO IMPLEMENT
     // 4. create a future that completes when either 20 seconds elapse
     //    or the user enters some text and presses ENTER
-    val terminationRequested: Future[String] = {
-      val promise = Promise[String]()
-
-      userInterrupted onComplete {
-        promise tryComplete
-      }
-
-      timeOut onComplete {
-        promise tryComplete
-      }
-
-      promise.future
-    }
+    val terminationRequested: Future[String] = Future.any(List(userInterrupted, timeOut))
 
     // TO IMPLEMENT
     // 5. unsubscribe from the server

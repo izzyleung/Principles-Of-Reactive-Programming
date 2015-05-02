@@ -17,11 +17,7 @@ package object nodescala {
 
     /** Returns a future that is always completed with `value`.
       */
-    def always[T](value: T): Future[T] = {
-      val p = Promise[T]()
-      p.success(value)
-      p.future
-    }
+    def always[T](value: T): Future[T] = Future(value)
 
     /** Returns a future that is never completed.
       *
@@ -36,7 +32,11 @@ package object nodescala {
       */
     def all[T](fs: List[Future[T]]): Future[List[T]] = fs match {
       case Nil => Future(Nil)
-      case x :: xs => x flatMap (v => all(xs) flatMap (vs => Future(v :: vs)))
+      case x :: xs =>
+        for {
+          v <- x
+          vs <- all(xs)
+        } yield v :: vs
     }
 
     /** Given a list of futures `fs`, returns the future holding the value of the future from `fs` that completed first.
@@ -51,9 +51,7 @@ package object nodescala {
     def any[T](fs: List[Future[T]]): Future[T] = {
       val p = Promise[T]()
 
-      fs foreach (_ onComplete { t =>
-        p tryComplete t
-      })
+      fs foreach (_ onComplete p.tryComplete)
 
       p.future
     }
@@ -96,10 +94,7 @@ package object nodescala {
       * However, it is also non-deterministic -- it may throw or return a value
       * depending on the current state of the `Future`.
       */
-    def now: T = Try(Await.result(f, 0 millisecond)) match {
-      case Success(t) => t
-      case Failure(_) => throw new NoSuchElementException
-    }
+    def now: T = if (f.isCompleted) Await.result(f, 0 nanosecond) else throw new NoSuchElementException
 
     /** Continues the computation of this future by taking the current future
       * and mapping it into another future.
@@ -110,9 +105,8 @@ package object nodescala {
     def continueWith[S](cont: Future[T] => S): Future[S] = {
       val p = Promise[S]()
 
-      f onComplete {
-        case Success(x) => p.tryComplete(Try(cont(Future(x))))
-        case Failure(e) => p.failure(e)
+      f onComplete { _ =>
+        p tryComplete Try(cont(f))
       }
 
       p.future
