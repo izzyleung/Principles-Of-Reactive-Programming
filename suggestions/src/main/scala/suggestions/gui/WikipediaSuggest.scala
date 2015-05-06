@@ -21,7 +21,7 @@ object WikipediaSuggest extends SimpleSwingApplication with ConcreteSwingApi wit
 
   {
     try {
-      UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName())
+      UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName)
     } catch {
       case t: Throwable =>
     }

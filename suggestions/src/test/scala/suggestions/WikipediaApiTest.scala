@@ -1,7 +1,6 @@
 package suggestions
 
 
-
 import language.postfixOps
 import scala.concurrent._
 import scala.concurrent.duration._
@@ -26,6 +25,7 @@ class WikipediaApiTest extends FunSuite {
         List(term)
       }
     }
+
     def wikipediaPage(term: String) = Future {
       "Title: " + term
     }
@@ -50,9 +50,10 @@ class WikipediaApiTest extends FunSuite {
     )
     assert(completed && count == 3, "completed: " + completed + ", event count: " + count)
   }
+  
   test("WikipediaApi should correctly use concatRecovered") {
     val requests = Observable.just(1, 2, 3)
-    val remoteComputation = (n: Int) => Observable.just(0 to n : _*)
+    val remoteComputation = (n: Int) => Observable.just(0 to n: _*)
     val responses = requests concatRecovered remoteComputation
     val sum = responses.foldLeft(0) { (acc, tn) =>
       tn match {

@@ -1,7 +1,5 @@
 package suggestions
 
-
-
 import scala.collection._
 import scala.concurrent._
 import scala.concurrent.ExecutionContext.Implicits.global
