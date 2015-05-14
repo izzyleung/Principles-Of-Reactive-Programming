@@ -74,7 +74,10 @@ class BinaryTreeSet extends Actor {
 
     case or: OperationReply => sender ! or
 
-    case GC => context.become(garbageCollecting(root))
+    case GC =>
+      root = createRoot
+      root ! CopyTo(root)
+      context.become(garbageCollecting(root))
   }
 
   // optional
@@ -84,7 +87,6 @@ class BinaryTreeSet extends Actor {
     */
   def garbageCollecting(newRoot: ActorRef): Receive = {
     case GC =>
-
 
   }
 
@@ -122,14 +124,20 @@ class BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {
     case i: Insert =>
       if (i.elem > elem) {
         if (subtrees isDefinedAt Right) subtrees(Right) ! i
-        else subtrees += Right -> context.actorOf(props(i.elem, initiallyRemoved = false))
+        else {
+          subtrees += Right -> context.actorOf(props(i.elem, initiallyRemoved = false))
+          i.requester ! OperationFinished(i.id)
+        }
       } else if (i.elem < elem) {
         if (subtrees isDefinedAt Left) subtrees(Left) ! i
-        else subtrees += Left -> context.actorOf(props(i.elem, initiallyRemoved = false))
-      } else
+        else {
+          subtrees += Left -> context.actorOf(props(i.elem, initiallyRemoved = false))
+          i.requester ! OperationFinished(i.id)
+        }
+      } else {
         removed = false
-
-      i.requester ! OperationFinished(i.id)
+        i.requester ! OperationFinished(i.id)
+      }
 
     case c: Contains =>
       if (c.elem > elem) {
@@ -142,11 +150,16 @@ class BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {
         c.requester ! ContainsResult(c.id, result = !removed)
 
     case r: Remove =>
-      if (r.elem > elem && subtrees.isDefinedAt(Right)) subtrees(Right) ! r
-      else if (r.elem < elem && subtrees.isDefinedAt(Left)) subtrees(Left) ! r
-      else removed = true
-
-      r.requester ! OperationFinished(r.id)
+      if (r.elem > elem) {
+        if (subtrees isDefinedAt Right) subtrees(Right) ! r
+        else r.requester ! OperationFinished(r.id)
+      } else if (r.elem < elem) {
+        if (subtrees isDefinedAt Left) subtrees(Left) ! r
+        else r.requester ! OperationFinished(r.id)
+      } else {
+        removed = true
+        r.requester ! OperationFinished(r.id)
+      }
 
     case ct: CopyTo =>
   }
