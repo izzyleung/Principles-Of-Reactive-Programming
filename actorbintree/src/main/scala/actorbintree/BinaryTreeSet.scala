@@ -5,6 +5,7 @@ package actorbintree
 
 import akka.actor._
 import scala.collection.immutable.Queue
+import scala.util.Random
 
 object BinaryTreeSet {
 
@@ -75,9 +76,9 @@ class BinaryTreeSet extends Actor {
     case or: OperationReply => sender ! or
 
     case GC =>
-      root = createRoot
-      root ! CopyTo(root)
-      context.become(garbageCollecting(root))
+      val newRoot = createRoot
+      root ! CopyTo(newRoot)
+      context become garbageCollecting(newRoot)
   }
 
   // optional
@@ -88,8 +89,15 @@ class BinaryTreeSet extends Actor {
   def garbageCollecting(newRoot: ActorRef): Receive = {
     case GC =>
 
-  }
+    case o: Operation => pendingQueue :+= o
 
+    case CopyFinished =>
+      root ! PoisonPill
+      root = newRoot
+      pendingQueue foreach (root ! _)
+      pendingQueue = Queue.empty[Operation]
+      context become normal
+  }
 }
 
 object BinaryTreeNode {
@@ -161,12 +169,30 @@ class BinaryTreeNode(val elem: Int, initiallyRemoved: Boolean) extends Actor {
         r.requester ! OperationFinished(r.id)
       }
 
-    case ct: CopyTo =>
+    case CopyTo(newRoot) =>
+      if (subtrees.isEmpty && removed) {
+        context.parent ! CopyFinished
+        self ! PoisonPill
+      } else {
+        val expected = subtrees.map(_._2).toSet
+        expected foreach (_ ! CopyTo(newRoot))
+        context become copying(expected, insertConfirmed = removed)
+        if (!removed) newRoot ! Insert(self, Random.nextInt(), elem)
+      }
   }
 
   // optional
   /** `expected` is the set of ActorRefs whose replies we are waiting for,
     * `insertConfirmed` tracks whether the copy of this node to the new tree has been confirmed.
     */
-  def copying(expected: Set[ActorRef], insertConfirmed: Boolean): Receive = ???
+  def copying(expected: Set[ActorRef], insertConfirmed: Boolean): Receive = {
+    case OperationFinished(id) =>
+      if (expected.isEmpty) context.parent ! CopyFinished
+      else context become copying(expected, insertConfirmed = true)
+
+    case CopyFinished =>
+      val remaining = expected - sender
+      if (remaining.isEmpty && insertConfirmed) context.parent ! CopyFinished
+      else context become copying(remaining, insertConfirmed)
+  }
 }
