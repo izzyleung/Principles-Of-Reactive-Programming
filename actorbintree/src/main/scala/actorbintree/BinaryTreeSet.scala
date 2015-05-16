@@ -73,8 +73,6 @@ class BinaryTreeSet extends Actor {
   val normal: Receive = {
     case o: Operation => root ! o
 
-    case or: OperationReply => sender ! or
-
     case GC =>
       val newRoot = createRoot
       root ! CopyTo(newRoot)
